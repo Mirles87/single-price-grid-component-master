@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main{
+    width: 600px;
+    box-shadow: 1px 2px 13px 4px rgb(0 0 0 / 20%);
+    border-radius: 10px;
+
+}
+h1{
+    padding-right: 10px;
+    padding-bottom: 15px;
+    font-family: 'Karla', sans-serif;
+}
+h2{
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 15px;
+    font-family: 'Karla', sans-serif;
+}
+h3{
+    padding-bottom: 15px;
+    font-family: 'Karla', sans-serif;
+}
+#amarillo{
+    color: hsl(71, 73%, 54%);
+}
+#gris{
+    color: hsl(218, 22%, 67%)
+}
+#precio{
+    display: flex;
+    flex-wrap: wrap;
+}
+p{
+    opacity: 80%;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+button{
+    margin: 10px;
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(204, 43%, 93%);
+    font-size: 15px;
+    border: none;
+    padding: 15px 80px;
+    justify-content: center;
+    border-radius: 7px;
+}
+button:hover {
+    background-color: hsl(71, 61%, 39%);
+    }
+
+#arriba{
+    padding: 30px;
+}
+#abajo{
+    color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: row;
+}
+#izquierda{
+    background-color: hsl(179, 62%, 43%);
+
+    border-radius: 0px 0px 0px 10px;
+    width: 280px;
+    padding: 20px;
+}
+#derecha{
+    background-color: hsl(179, 41%, 61%);
+    width: 280px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 0px;
+}
